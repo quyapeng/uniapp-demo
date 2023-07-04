@@ -1,10 +1,22 @@
 {
   "pages": [{
+	  "path": "pages/index/index",
+	  "style": {}
+  },{
       "path": "pages/news/index",
       "style": {}
     },
     {
       "path": "pages/news/detail",
+      "style": {
+        "app-plus": {
+          "titleNView": {
+            "type": "transparent"
+          }
+        }
+      }
+    },{
+      "path": "pages/ucenter/ucenter",
       "style": {
         "app-plus": {
           "titleNView": {

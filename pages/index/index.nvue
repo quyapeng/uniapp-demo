@@ -1,0 +1,37 @@
+<template>
+  <view class="index">
+    index
+  </view>
+</template>
+
+<script>
+  // #ifdef APP-PLUS
+  const dom = weex.requireModule('dom');
+  // #endif
+
+
+
+
+  export default {
+    components: {
+      
+    },
+    data() {
+      return {
+        
+      }
+    },
+    onReady() {
+      
+	  console.log('onReady');
+    },
+    methods: {
+    }
+  }
+</script>
+
+<style>
+  .index{
+	  
+  }
+</style>
