@@ -1,6 +1,9 @@
 <template>
 	<view class="nav">
-		nav
+		<text>首页</text>
+		<text>发现</text>
+		<text>消息</text>
+		<text>我的</text>
 	</view>
 </template>
 
