@@ -1,18 +1,16 @@
 <template>
 	<view class="nav">
-		<text>首页</text>
-		<text>发现</text>
-		<text>消息</text>
-		<text>我的</text>
+		<text v-for="(item, index) in list" :class="active==index?'active':''">{{item}}</text>
 	</view>
 </template>
 
 <script>
 	export default {
 		name: 'nav',
+		props:['active'],
 		data() {
 			return {
-				
+				list:['首页', '发现', '消息', '我的']
 			}
 		},
 		mounted() {
