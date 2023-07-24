@@ -1,6 +1,19 @@
 <template>
   <view class="index">
-    
+    <view class="uni-margin-wrap">
+		<swiper class="swiper" circular :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval"
+			:duration="duration">
+			<swiper-item>
+				<view class="swiper-item uni-bg-red">A</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="swiper-item uni-bg-green">B</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="swiper-item uni-bg-blue">C</view>
+			</swiper-item>
+		</swiper>
+	</view>
   </view>
 </template>
 
@@ -18,6 +31,11 @@
     },
     data() {
       return {
+		  background: ['color1', 'color2', 'color3'],
+		  indicatorDots: true,
+		  autoplay: true,
+		  interval: 2000,
+		  duration: 500
         
       }
     },
@@ -26,6 +44,7 @@
 	  console.log('onReady');
     },
     methods: {
+		 
     }
   }
 </script>
