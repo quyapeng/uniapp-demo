@@ -13,6 +13,7 @@
 				<view class="swiper-item uni-bg-blue">C</view>
 			</swiper-item>
 		</swiper>
+		<view></view>
 	</view>
   </view>
 </template>
@@ -52,5 +53,5 @@
 <style>
   .index{
 	  
-  }
+  } 
 </style>
